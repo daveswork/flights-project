@@ -1,0 +1,15 @@
+{
+    "flights": [
+        {
+            "id":"1",
+            "airline": "Emirates",
+            "flight_number": "EK1234"
+        },
+        {
+            "id":"2",
+            "airline": "Delta",
+            "flight_number": "DL2345"
+        }
+
+    ]
+}
