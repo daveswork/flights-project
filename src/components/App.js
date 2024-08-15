@@ -18,12 +18,18 @@ function App() {
     .then(data => setFlights(data))
   }, [])
 
+  function addFlight(newFlight){
+    newFlight.id = parseInt(flights[flights.length - 1].id) + 1
+    console.log(newFlight)
+    // setFlights([...flights, newFlight])
+  }
+
   return (
     <div className="App">
       <NavBar/>
       <Header/>
       
-      <Outlet context={{flights:flights}}/>
+      <Outlet context={{flights:flights, addFlight:addFlight}}/>
 
     </div>
   );

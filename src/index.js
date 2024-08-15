@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ErrorPage from './components/ErrorPage';
 import FlightList from './components/FlightList';
+import NewFlightForm from './components/NewFlightForm';
 
 const router = createBrowserRouter([
   {
@@ -19,7 +20,7 @@ const router = createBrowserRouter([
       },
       {
         path:"/add_flight",
-        element:<p>add flight</p>
+        element:<NewFlightForm/>
       },
       {
         path: "/about",
