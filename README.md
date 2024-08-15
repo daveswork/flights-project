@@ -1,6 +1,20 @@
-# Getting Started with Create React App
+# Flights Project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# Setup 
+
+1. Run the following command in the terminal to install the dependencies from the `package.json` file
+
+```sh
+npm install
+```
+
+2. Run the following command in the terminal to start the React app
+```sh
+npm run server
+npm start
+```
 
 ## Available Scripts
 
